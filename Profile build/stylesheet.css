@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*{
+	font-family: Open Sans; 
+	font-size: 12px; 
+	text-align: center; 
+	
+}
+body{
+	/*border: 6px solid #D3D3D3; 
+	box-shadow: 10px 10px 5px #888888; 
+	border-radius: 5px;*/
+	
+}
+div {
+	margin: 0px; 
+	color:black; 
+	padding: 12px
+}
+img { 
+	width: 100%;
+	border-radius:100%;
+}
+h1 {
+	font-weight:bold;
+	font-size: 22px;
+}
+nav {
+	width:125px;
+	float:left;
+	position:fixed;
+	color:white;
+	border: 6px solid #D3D3D3; 
+	box-shadow: 10px 10px 5px #888888; 
+	border-radius: 5px;
+}
+div.one {
+	background-color: #3366DD;
+}
+div.two {
+	background-color:#3377DD; 
+	color:white; 
+}
+div.three {
+	background-color:#3388DD;
+	color:white;
+}
+div.four { 
+	background-color:#3399DD;
+	color:white;
+}
+div.five { 
+	background-color:#33AADD;
+	color:white;
+}
+div.six {
+	background-color:#33BBDD;
+	color:white;
+}
+div.seven {
+	background-color:#33CCDD;
+	color:white;
+}
+div.eight {
+	background-color:#D3D3D3;
+	color:black;
+	height:345px;
+	float:left;
+/*	position:fixed;
+*/	/*left:200px;
+	right:200px;*/
+	width:60%;
+	border: 6px solid #D3D3D3; 
+	box-shadow: 10px 10px 5px #888888; 
+	border-radius: 5px;
+}
+div.twitter{
+	background-color:#D3D3D3;
+	color:black;
+	height:345px;
+	position:fixed;
+	right:40px;
+	border: 6px solid #D3D3D3; 
+	box-shadow: 10px 10px 5px #888888; 
+	border-radius: 5px;
+}
+div:hover{
+	background-color: white; 
+	color:black;
+	border-radius: 10px;
+  	transition:2s;
+} 
+/*You need to leave this below the above div classes 
+in order to have the transition effect override the previous background color schemes.*/
+
+
+
+
+ 

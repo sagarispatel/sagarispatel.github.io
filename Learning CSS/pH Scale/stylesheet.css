@@ -1,0 +1,23 @@
+*{font-family: sans-serif;}
+p { margin: 0px; padding: 5px;}
+p.one {width: "75%" height: 50px; background-color:#3366DD;}
+p.two {width: "75%" height: 50px; background-color:#3377DD;}
+p.three {width: "75%" height: 50px; background-color:#3388DD;}
+p.four {width: "75%" height: 50px; background-color:#3399DD;}
+p.five {width: "75%" height: 50px; background-color:#33AADD;}
+p.six {width: "75%" height: 50px; background-color:#33BBDD;}
+p.seven {width: "75%" height: 50px; background-color:#33CCDD;}
+p.eight {width: "75%" height: 50px; background-color:#00CCBB; font-size: 30px}
+p.nine {width: "75%" height: 50px; background-color:#FFEEFF;}
+p.ten {width: "75%" height: 50px; background-color:#FFDDFF;}
+p.eleven {width: "75%" height: 50px; background-color:#FFCCFF;}
+p.twelve {width: "75%" height: 50px; background-color:#FFBBFF;}
+p.thirteen {width: "75%" height: 50px; background-color:#FFAAFF;}
+p.fourteen {width: "75%" height: 50px; background-color:#FF99FF;}
+p.fifteen {width: "75%" height: 50px; background-color:#FF88FF;}
+p{color:white;}
+body {border-top: 17px solid #D3D3D3; border-left: 17px solid #D3D3D3; border-right: 17px solid #D3D3D3; border-bottom: 10px solid #D3D3D3;
+		margin: 0px 10px 10px 10px}
+
+h1 {font-family:sans-serif; border-bottom: 17px solid #D3D3D3;
+padding-left: 12px ; margin-bottom:0px; color:#666666; background-color: #F0F0F0; margin-top: 0px; vertical-align: middle; padding-top: 10px; padding-bottom: 10px;}

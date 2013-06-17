@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment|Alef|Fruktur|Titillium+Web);
+p {font-family:Open Sans}
+.one {font-family: Condiment; font-style: italic;}
+h1 {font-family: Alef; text-transform: uppercase;}
+h2 {font-family: Fruktur}
+a{font-size:10px;}
+a:hover{text-decoration:none; color:red; }
