@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  background: url(images/rainbow.png) repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 400px 165px;
+}
+.bigbox {
+  padding: 0px;
+}
+
+img.nav { 
+  width: 100%;
+  border-radius:20px;
+  padding-top: 24px;
+  /*margin-right: 100px;*/
+}
+
+.moustache { 
+  background: url(images/greens.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 400px 165px;
+  padding: 0;
+
+}
+img.headimage {
+  height: 120px;
+  width: 380px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-weight:bold;
+  font-size: 10px;
+}
+
+div.thebigone {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+div.moustache_relative {
+    background: url(images/blue.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.absolute {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/*THESE ARE THE NAV DIVS*/
+
+div.nav {
+  display: inline;
+  height: 100%;
+  float: left;
+  border-radius: 10px;
+  padding-top: 0px;
+}
+
+div.one {
+  background-color: #3366DD;
+  width:75px;
+  height:75px;
+  border-radius: 20px; 
+  border-radius: 27px;
+  display: inline-block;
+}
+
+div.two {
+  background-color:#BA2426; 
+  color:white;
+  width:75px;
+  height:75px;
+  line-height: 75px; 
+  border-radius: 27px;
+}
+
+div.three {
+  background-color:#5174B6;
+  color:white;
+  width:75px;
+  height:75px;
+  line-height: 75px; 
+  border-radius: 27px;
+}
+
+div.four { 
+  background-color:#EE4B66;
+  color:white;
+  width:75px;
+  height:75px;
+  line-height: 75px; 
+  border-radius: 27px;
+}
+
+div.five { 
+  background-color:#F8EE2D;
+  color:white;
+  width:75px;
+  height:75px;
+  line-height: 75px; 
+  border-radius: 27px;
+}
+
+div.six { 
+  background-color:#3366DD;
+  color:white;
+  width:75px;
+  height:75px;
+  line-height: 75px; 
+  border-radius: 27px;
+}
+
+/*THIS IS WHERE OTHER SHIT STARTS*/
+
+
+div.moustache {
+  background-color:none; 
+  box-shadow: 0px 0px 4px 1px black; 
+  border-radius: 5px;
+  color:black;
+  float: left;
+  height: 54px;
+  margin:5px;
+  width: 54px;
+}
+
+div.nav-item {
+  text-align: center;
+  transition:.7s;
+}
+
+div.nav-item:hover{
+  background-color: white; 
+  color:black;
+  border-radius: 10px;
+/*  margin-top: 5px;
+*/} 
+
+/*You need to leave this below the above div classes 
+in order to have the transition effect override the previous background color schemes.*/
+
